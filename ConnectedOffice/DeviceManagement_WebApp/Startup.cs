@@ -42,7 +42,7 @@ namespace DeviceManagement_WebApp
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddTransient<ICategoriesRepository, CategoriesRepository>();
             services.AddTransient<IDevicesRepository, DevicesRepository>();
-            services.AddTransient<IZonesRepository, ZonesRepository>();
+            
 
         }
 
